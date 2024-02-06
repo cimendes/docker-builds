@@ -183,7 +183,7 @@ COPY hav.fasta /data/hav.fasta
 RUN echo "testing HAV functionality..." && \
  fasta-trim-terminal-ambigs.pl /data/hav.fasta \
      --minlen 50 \
-     --maxlen 10500 \
+     --maxlen 7500 \
      >/data/hav.trimmed.fasta && \
  v-annotate.pl --split \
      -r \
