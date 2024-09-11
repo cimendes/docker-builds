@@ -18,7 +18,7 @@ The licenses of the open-source software that is contained in these Docker image
 | Bakta | GNU GPLv3 | https://github.com/oschwengers/bakta/blob/main/LICENSE |
 | Bandage | GNU GPLv3 | https://github.com/rrwick/Bandage?tab=GPL-3.0-1-ov-file#readme |
 | BBTools | non-standard - see `licence.txt` and `legal.txt` that is included in docker image under `/bbmap/docs/`; Also on sourceforge repo for BBTools | https://jgi.doe.gov/disclaimer/ |
-| bcftools | MIT or **GNU GPLv3** (depends on how bcftools was compiled, I believe GNU GPLv3 applies here) | https://github.com/samtools/bcftools/blob/develop/LICENSE |
+| bcftools | MIT & **GNU GPLv3** | https://github.com/samtools/bcftools/blob/develop/LICENSE |
 | bedtools | MIT | https://github.com/arq5x/bedtools2/blob/master/LICENSE |
 | blast+ | Public Domain | https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/source/scripts/projects/blast/LICENSE |
 | bowtie2 | GNU GPLv3 | https://github.com/BenLangmead/bowtie2/blob/master/LICENSE |
@@ -33,6 +33,7 @@ The licenses of the open-source software that is contained in these Docker image
 | Circlator | GNU GPLv3 | https://github.com/sanger-pathogens/circlator/blob/master/LICENSE |
 | Circos | GNU GPLv3 | https://circos.ca/ |
 | CirculoCov | GNU GPLv3 | https://github.com/erinyoung/CirculoCov/blob/main/LICENSE |
+| Clair3 | non-standard | https://github.com/HKU-BAL/Clair3/blob/main/LICENSE.md |
 | colorid | MIT | https://github.com/hcdenbakker/colorid/blob/master/LICENSE |
 | datasets-sars-cov-2 | Apache 2.0 | https://github.com/CDCgov/datasets-sars-cov-2/blob/master/LICENSE |
 | diamond | GNU GPLv3 | https://github.com/bbuchfink/diamond/blob/master/LICENSE |
@@ -58,6 +59,7 @@ The licenses of the open-source software that is contained in these Docker image
 | Freyja | BSD-2 | https://github.com/andersen-lab/Freyja/blob/main/LICENSE |
 | GAMBIT | GNU aGPLv3 | https://github.com/jlumpe/gambit/blob/master/LICENSE |
 | GAMMA | Apache 2.0 | https://github.com/rastanton/GAMMA/blob/main/LICENSE |
+| GenoFlu | GNU GPL v3 | https://github.com/USDA-VS/GenoFLU/blob/main/LICENSE |
 | Genotyphi | GNU GPLv3 | https://github.com/katholt/genotyphi/blob/main/LICENSE |
 | geNomad | ACADEMIC, INTERNAL, RESEARCH & DEVELOPMENT, NON-COMMERCIAL USE ONLY | https://github.com/apcamargo/genomad/blob/main/LICENSE |
 | GenoVi | BY-NC-SA Creative Commons License | https://github.com/robotoD/GenoVi/blob/main/LICENSE.txt |
@@ -69,9 +71,11 @@ The licenses of the open-source software that is contained in these Docker image
 | htslib | MIT | https://github.com/samtools/htslib/blob/develop/LICENSE |
 | iqtree | GNU GPLv2 | https://github.com/Cibiv/IQ-TREE/blob/master/LICENSE |
 | iqtree2 | GNU GPLv2 | https://github.com/iqtree/iqtree2/blob/master/LICENSE |
+| IPA | BSD-3 | https://github.com/PacificBiosciences/pbipa/blob/master/LICENSE.txt |
 | IRMA | GNU GPLv3 | https://wonder.cdc.gov/amd/flu/irma/disclaimer.html |
 | isPcr | non-standard - see README in source | https://hgwdev.gi.ucsc.edu/~kent/src/isPcr33.zip |
 | iVar | GNU GPLv3 | https://github.com/andersen-lab/ivar/blob/master/LICENSE |
+| Jasmine | BSD-3 | https://github.com/PacificBiosciences/jasmine/blob/main/LICENSE |
 | Kaptive |  GNU GPLv3 | https://github.com/katholt/Kaptive/blob/master/LICENSE |
 | Kleborate | GNU GPLv3 | https://github.com/katholt/Kleborate/blob/master/LICENSE |
 | kma | Apache v2.0 | https://bitbucket.org/genomicepidemiology/kma/src/master/ |
@@ -109,7 +113,9 @@ The licenses of the open-source software that is contained in these Docker image
 | ONTime | MIT | https://github.com/mbhall88/ontime/blob/main/LICENSE |
 | OrthoFinder | GNU GPLv3 | https://github.com/davidemms/OrthoFinder/blob/master/License.md |
 | Panaroo | MIT | https://github.com/gtonkinhill/panaroo/blob/master/LICENSE |
+| pango_aliasor | MIT | https://github.com/corneliusroemer/pango_aliasor/blob/main/LICENSE |
 | Pangolin | GNU GPLv3 | https://github.com/cov-lineages/pangolin/blob/master/LICENSE.txt |
+| panqc | MIT | https://github.com/maxgmarin/panqc/blob/main/LICENSE |
 | Parsnp | Battelle National Biodefense Institute (BNBI) | https://github.com/marbl/parsnp?tab=License-1-ov-file#readme |
 | pasty | Apache 2.0 | https://github.com/rpetit3/pasty/blob/main/LICENSE |
 | Pavian | GNU GPLv3 | https://github.com/fbreitwieser/pavian/blob/master/DESCRIPTION |
@@ -137,10 +143,13 @@ The licenses of the open-source software that is contained in these Docker image
 | racon | MIT | https://github.com/lbcb-sci/racon/blob/master/LICENSE ; https://github.com/isovic/racon/blob/master/LICENSE |
 | rasusa | MIT | https://github.com/mbhall88/rasusa/blob/master/LICENSE |
 | raven | MIT | https://github.com/lbcb-sci/raven/blob/master/LICENSE |
-| RAxML <br/> RAxML Next Generation | GNU GPLv3 (RAxML), <br/> GNU Affero GPLv3 (RAxML Next Generation)| https://github.com/stamatak/standard-RAxML/blob/master/gpl-3.0.txt <br/> https://github.com/amkozlov/raxml-ng/blob/master/LICENSE.txt |
+| RAxML | GNU GPLv3 | https://github.com/stamatak/standard-RAxML/blob/master/gpl-3.0.txt |
+| RAxML-NG | GNU AGPLv3| https://github.com/amkozlov/raxml-ng/blob/master/LICENSE.txt |
+| RAxML-NG | GNU GPLv2 | https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html |
 | ResFinder | Apache 2.0 | https://bitbucket.org/genomicepidemiology/resfinder/src/master/ |
 | Roary | GNU GPLv3 | https://github.com/sanger-pathogens/Roary/blob/master/GPL-LICENSE |
 | SalmID| MIT | https://github.com/hcdenbakker/SalmID/blob/master/LICENSE |
+| samclip | GNU GPLv3 | https://github.com/tseemann/samclip/blob/master/LICENSE |
 | Samtools | GNU GPLv3 | https://github.com/samtools/samtools/blob/develop/LICENSE |
 | SeqKit | MIT | https://github.com/shenwei356/seqkit/blob/master/LICENSE
 | SeqSero | GNU GPLv2 | https://github.com/denglab/SeqSero/blob/master/LICENSE |
@@ -149,6 +158,7 @@ The licenses of the open-source software that is contained in these Docker image
 | seqtk | MIT | https://github.com/lh3/seqtk/blob/master/LICENSE |
 | Seroba | GNU GPLv3 | https://github.com/sanger-pathogens/seroba/blob/master/LICENSE |
 | SerotypeFinder | Apache 2.0 | https://bitbucket.org/genomicepidemiology/serotypefinder/ |
+| ShigaPass | GNU GPLv3 | https://github.com/imanyass/ShigaPass/blob/main/LICENSE |
 | shigatyper | non-standard license see --> | https://github.com/CFSAN-Biostatistics/shigatyper/blob/master/LICENSE |
 | ShigEiFinder | GNU GPLv3 | https://github.com/LanLab/ShigEiFinder/blob/main/LICENSE |
 | Shovill | GNU GPLv3 | https://github.com/tseemann/shovill/blob/master/LICENSE |
@@ -179,6 +189,7 @@ The licenses of the open-source software that is contained in these Docker image
 | Verkko | Public Domain | https://github.com/marbl/verkko/blob/master/README.licenses |
 | VIBRANT | GNU GPLv3 | https://github.com/AnantharamanLab/VIBRANT/blob/master/LICENSE |
 | VIGOR4 | GNU GPLv3 | https://github.com/JCVenterInstitute/VIGOR4/blob/master/LICENSE.txt |
+| Viridian | MIT | https://github.com/iqbal-lab-org/viridian/blob/master/LICENSE |
 | VirSorter2 | GNU GPLv2 | https://github.com/jiarong/VirSorter2/blob/master/LICENSE |
 | VirulenceFinder | Apache 2.0 | https://bitbucket.org/genomicepidemiology/virulencefinder/src/master/ |
 | wtdbg2 | GNU GPLv3 | https://github.com/ruanjue/wtdbg2/blob/master/LICENSE.txt |
